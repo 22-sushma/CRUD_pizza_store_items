@@ -48,7 +48,7 @@ Response:
 ]
 
 ### 🔹 POST Request
-![GET Request](screenshots/POST%20REQ.png)
+![POST Request](screenshots/POST%20REQ.png)
 
 POST /
 Adds a new pizza to the menu.
@@ -62,7 +62,7 @@ id
 - POST /?id=4&name=Veggie&size=large&price=400&toppingId=t2
 
 ### 🔹 PUT Request
-![GET Request](screenshots/PUT%20REQ.png)
+![PUT Request](screenshots/PUT%20REQ.png)
 
 PUT /:id
   Updates an existing pizza by ID.Query Parameters (optional):-
@@ -74,7 +74,7 @@ PUT /:id
 - PUT /2?id=5&name=Spicy&size=small&price=280&toppingId=t3
 
 ### 🔹 DELETE Request
-![GET Request](screenshots/DELETE%20REQ.png)
+![DELETE Request](screenshots/DELETE%20REQ.png)
 
 DELETE /:id
   Deletes a pizza by ID.
