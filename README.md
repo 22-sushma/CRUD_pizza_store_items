@@ -32,7 +32,7 @@ A simple Express.js RESTful API for managing a pizza menu and its toppings. This
 ## 🧪 Sample Outputs
 
 ### 🔹 GET Request
-![GET Request](GET%20REQ.png)
+![GET Request](screenshots/GET%20REQ.png)
 
 GET /Returns all pizzas in the menu.
 Response:
@@ -48,7 +48,7 @@ Response:
 ]
 
 ### 🔹 POST Request
-![POST Request](POST%20REQ.png)
+![GET Request](screenshots/POST%20REQ.png)
 
 POST /
 Adds a new pizza to the menu.
@@ -62,7 +62,7 @@ id
 - POST /?id=4&name=Veggie&size=large&price=400&toppingId=t2
 
 ### 🔹 PUT Request
-![PUT Request](PUT%20REQ.png)
+![GET Request](screenshots/PUT%20REQ.png)
 
 PUT /:id
   Updates an existing pizza by ID.Query Parameters (optional):-
@@ -74,7 +74,7 @@ PUT /:id
 - PUT /2?id=5&name=Spicy&size=small&price=280&toppingId=t3
 
 ### 🔹 DELETE Request
-![DELETE Request](DELETE%20REQ.png)
+![GET Request](screenshots/DELETE%20REQ.png)
 
 DELETE /:id
   Deletes a pizza by ID.
