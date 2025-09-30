@@ -47,6 +47,7 @@ Response:
   ...
 ]
 
+
 ### 🔹 POST Request
 ![POST Request](screenshots/POST%20REQ.png)
 
